@@ -6,8 +6,6 @@ public class Menu {
     Scanner teclado = new Scanner(System.in);
     ListarTarefas listar = new ListarTarefas();
 
-    ListarTarefas editar = new ListarTarefas();
-
     public void Menu(){
         boolean continuar = true;
 
@@ -35,7 +33,7 @@ public class Menu {
                     break;
 
                 case 3:
-                    editar.editarTarefa();
+                    listar.editarLista();
                     break;
             }
         }
