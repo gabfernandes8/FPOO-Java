@@ -1,5 +1,9 @@
 package br.senai.sp.jandira.model;
 
-public class Aves {
+import java.util.Scanner;
+
+public class Aves extends Animais{
+
+    Scanner scanner = new Scanner(System.in);
 
 }
