@@ -5,6 +5,8 @@ import br.senai.sp.jandira.model.Retangulo;
 
 import java.util.Scanner;
 
+// polimorfismo
+
 public class GerenciadorFormas {
     public static void main(String[] args) {
 
