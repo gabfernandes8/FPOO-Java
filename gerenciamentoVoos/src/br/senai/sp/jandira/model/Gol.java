@@ -1,16 +1,16 @@
 package br.senai.sp.jandira.model;
 
-public class Gol extends Voo {
+    public class Gol extends Voo{
 
-    String agencia;
+        String agencia;
 
-    public Gol(String origem, String destino, String dataPartida, String horaPartida, int numeroVoo, int capacidadePassageiros) {
-        super(origem, destino, dataPartida, horaPartida, numeroVoo, capacidadePassageiros);
+        public Gol(String origem, String destino, String dataPartida, String horaPartida, int numeroVoo, int capacidadePassageiros) {
+            super(origem, destino, dataPartida, horaPartida, numeroVoo, capacidadePassageiros);
+            this.agencia = "Gol";
+        }
 
-        this.agencia = "Voo Delta";
+        public String getAgencia() {
+            return agencia;
+        }
+
     }
-
-
-
-    }
-}

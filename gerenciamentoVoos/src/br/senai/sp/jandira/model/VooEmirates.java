@@ -11,4 +11,8 @@ public class VooEmirates extends Voo{
         super(origem, destino, dataPartida, horaPartida, numeroVoo, capacidadePassageiros);
         this.agencia = "Voo Emirates";
     }
+
+    public String getAgencia() {
+        return agencia;
+    }
 }

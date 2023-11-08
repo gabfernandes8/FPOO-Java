@@ -11,4 +11,8 @@ public class VooDelta extends Voo{
         super(origem, destino, dataPartida, horaPartida, numeroVoo, capacidadePassageiros);
         this.agencia = "Voo Delta";
     }
+
+    public String getAgencia() {
+        return agencia;
+    }
 }
