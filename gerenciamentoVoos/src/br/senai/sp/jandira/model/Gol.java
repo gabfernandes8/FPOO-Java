@@ -12,5 +12,4 @@ package br.senai.sp.jandira.model;
         public String getAgencia() {
             return agencia;
         }
-
     }
